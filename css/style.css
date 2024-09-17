@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+
+:root{
+	--color-negro:#282d33;
+	--color-naranja: #f7b614;
+	--color-titulos:#2a2a32;
+	--color-contenido: #AAA;
+}
+
+body{
+	color:var(--color-contenido);
+	font-family: "Catamaran";
+}
+
+header{
+	position: relative;
+	background-color: #282932;
+	width: 100%;
+	top:0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+}
+footer{
+	background-color: #282932;
+	background-image: url(../img/footer-bg.png);
+	background-size: cover;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+footer p span{
+	color: #f7b614;
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+#hero .blanco{
+	color: white;
+	font-weight: 700;
+}
+
+#hero .anaranjado{
+	color:var(--color-naranja);
+	font-weight: 700;
+}
+
+#hero{
+	background-color: #282d33;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-image: url("../img/footer-bg.png");
+	background-size: cover;
+	background-position: top center;
+}
+
+#hero p{
+	color: white;
+}
+
+#populargoods{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-color: white;
+}
+
+#populargoods h6{
+	color:var(--color-naranja);
+}
+
+#populargoods h3{
+	color:var(--color-titulos);
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+#populargoods p{
+	color:var(--color-titulos);
+	font-size: 15px;
+}
+
+#populargoods h5{
+	color:var(--color-titulos);
+	margin-bottom: 30px;
+}
+
+#sitathome{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-color: #282d33;
+}
+
+#sitathome .blanco{
+	color: white;
+	font-weight: 700;
+}
+
+#sitathome .anaranjado{
+	color:var(--color-naranja);
+	font-weight: 700;
+}
+
+#sitathome p{
+	color: white;
+	padding-bottom: 30px;
+}
+
+
+#sitathome h6{
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
